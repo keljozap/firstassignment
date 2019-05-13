@@ -1,0 +1,22 @@
+{
+  "name": "firstassignment",
+  "version": "1.0.0",
+  "description": "\"The first assignment of the nodejs course\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keljozap/firstassignment.git"
+  },
+  "author": "Kelly_Zapata kelly_zapata27@hotmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keljozap/firstassignment/issues"
+  },
+  "homepage": "https://github.com/keljozap/firstassignment#readme",
+  "dependencies": {
+    "yargs": "^13.2.2"
+  }
+}
