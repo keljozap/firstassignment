@@ -1,0 +1,2 @@
+The student kelly with the ID 001 , has been registered on the course Quantum Physics
+ it has a duration of 3 months with a price of 20 dollars

@@ -1,5 +1,5 @@
-const waitFor = (ms) => new Promise(r => setTimeout(r, ms));
-let courses=[{
+
+const courses=[{
 	id:001,
 	name:'Quantum Physics',
 	duration:'3 months',
@@ -30,14 +30,23 @@ let courses=[{
 	price:'50 dollars'
 }];
 
-async function asyncForEach(array, callback) {
-  for (let index = 0; index < array.length; index++) {
-    await callback(array[index], index, array);
-  }
+const options={
+
+    id:{
+        demand:true,
+        alias: 'i'
+    },
+    name:{
+        demand:true,
+        alias: 'n'
+    },
+    userID:{
+        demand:true,
+        alias: 'u'
+    }
 }
 
-asyncForEach(courses, async (course) => {
-  await waitFor(2000);
-  console.log(course);
-});
-
+module.exports={
+    courses,
+    options
+};
