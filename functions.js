@@ -1,0 +1,3 @@
+const coursesOfTheUni = require('./courses')
+
+
